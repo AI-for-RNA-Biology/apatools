@@ -1,0 +1,19 @@
+#
+# SPDX-FileCopyrightText: Copyright © 2025 Idiap Research Institute <contact@idiap.ch>
+#
+# SPDX-FileContributor: Lisa Fournier <lisa.fournier@idiap.ch>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+#
+*.egg-info
+.coverage
+notebooks
+.ipynb
+.ipynb_checkpoints
+.DS_Store
+**/__pycache__/
+.env
+.vscode/
+
+# local settings of the SLURM scripts (template: slurm_scripts/config.example.sh)
+slurm_scripts/config.sh

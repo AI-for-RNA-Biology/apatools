@@ -1,0 +1,27 @@
+#
+# SPDX-FileCopyrightText: Copyright © 2025 Idiap Research Institute <contact@idiap.ch>
+# SPDX-FileCopyrightText: Copyright © 2026 University of Bern
+#
+# SPDX-FileContributor: Lisa Fournier <lisa.fournier@idiap.ch>
+# SPDX-FileContributor: Lisa Fournier <lisa.fournier@unibe.ch>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+#
+filepath_to_CLIP: "/path/to/CLIP_dir_or_file.gff"  # used only if --clip_file is not given
+filepath_to_gtf_isoforms: "/path/to/3UTR_isoforms.gtf"
+filepath_to_table_of_pairs: "/path/to/3UTR_analysis/table_of_pairs.csv"
+filepath_to_sig_pairs:
+  - "/path/to/3UTR_analysis/shifts/pairs_proximals_<A>_vs_<B>.csv"
+  - "/path/to/3UTR_analysis/shifts/pairs_distals_<A>_vs_<B>.csv"
+path_to_results: "/path/to/3UTR_analysis/CLIP"
+split_name_before: '_'
+split_number_before: 2
+split_name_after: 'hg38'
+split_number_after: 1
+treatments:
+  - treatment_A
+  - treatment_B
+nt_before: -1000
+nt_after: 1000
+length_region: 100
+bootstrap: False

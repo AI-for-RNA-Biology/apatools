@@ -1,0 +1,20 @@
+#
+# SPDX-FileCopyrightText: Copyright © 2025 Idiap Research Institute <contact@idiap.ch>
+#
+# SPDX-FileContributor: Lisa Fournier <lisa.fournier@idiap.ch>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+#
+df_counts_3UTR_path: "/path/to/matrix_count/df_counts.csv"
+gtf_file_focus: "/path/to/focused_annotation/annotation.gtf"
+gtf_file_no_focus: "/path/to/no_focus_annotation/annotation.gtf"
+df_filtered_genes_path: "/path/to/filtered_genes/df_genes_filtered_normalized.csv"
+extension_figures: png
+treatments:
+  control:
+    - 'SRR14836658'
+    - 'SRR14836659'
+  FXR2_knockout:
+    - 'SRR14845602'
+    - 'SRR14845603'
+path_to_results: "/path/to/results/3UTR_analysis"
